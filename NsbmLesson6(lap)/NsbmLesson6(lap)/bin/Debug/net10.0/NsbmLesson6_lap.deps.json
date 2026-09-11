@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "NsbmLesson6_lap/1.0.0": {
+        "runtime": {
+          "NsbmLesson6_lap.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NsbmLesson6_lap/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
