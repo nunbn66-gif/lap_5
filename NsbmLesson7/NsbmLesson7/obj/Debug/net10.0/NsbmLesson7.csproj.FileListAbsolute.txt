@@ -97,3 +97,4 @@ D:\net\p5\NsbmLesson7\NsbmLesson7\obj\Debug\net10.0\NsbmLesson7.pdb
 D:\net\p5\NsbmLesson7\NsbmLesson7\obj\Debug\net10.0\NsbmLesson7.genruntimeconfig.cache
 D:\net\p5\NsbmLesson7\NsbmLesson7\obj\Debug\net10.0\ref\NsbmLesson7.dll
 D:\net\p5\NsbmLesson7\NsbmLesson7\obj\Debug\net10.0\NsbmLess.561F994C.Up2Date
+D:\net\p5\NsbmLesson7\NsbmLesson7\obj\Debug\net10.0\NsbmLesson7.sourcelink.json

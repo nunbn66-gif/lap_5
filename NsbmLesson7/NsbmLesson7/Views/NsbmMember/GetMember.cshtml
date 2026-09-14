@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Thong tin Member";
+    var member = Model as NsbmLesson7.Models.DataModels.NsbmMember;
+}
+<div class="alert alert-info">
+    <h1>@ViewData["Title"]</h1>
+    @* <p>Member id: @ViewBag.Member.NsbmMemberId</p>
+    <p>Username: @ViewBag.Member.NsbmUserName</p>
+    <p>Full Name: @ViewBag.Member.NsbmFullName</p>
+    <p>Email: @ViewBag.Member.NsbmEmail</p> *@
+    <p>Member id: @member?.NsbmMemberId</p>
+  <  p>Username: @member?.NsbmUserName</p>
+    <p>Full Name: @member?.NsbmFullName</p>
+    <p>Email: @member?.NsbmEmail</p>
+       
+</div>

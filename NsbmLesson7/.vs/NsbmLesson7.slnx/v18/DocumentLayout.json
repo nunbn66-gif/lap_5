@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\net\\p5\\NsbmLesson7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2CDEC89-81CF-47F3-8F35-6808CEB056EB}|NsbmLesson7\\NsbmLesson7.csproj|d:\\net\\p5\\nsbmlesson7\\nsbmlesson7\\views\\getmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2CDEC89-81CF-47F3-8F35-6808CEB056EB}|NsbmLesson7\\NsbmLesson7.csproj|solutionrelative:nsbmlesson7\\views\\getmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F0C759E-8216-C709-1394-C12F165BF2DC}|NsbmLesson7\\NsbmLesson7.csproj|d:\\net\\p5\\nsbmlesson7\\nsbmlesson7\\controllers\\nsbmmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0C759E-8216-C709-1394-C12F165BF2DC}|NsbmLesson7\\NsbmLesson7.csproj|solutionrelative:nsbmlesson7\\controllers\\nsbmmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2CDEC89-81CF-47F3-8F35-6808CEB056EB}|NsbmLesson7\\NsbmLesson7.csproj|d:\\net\\p5\\nsbmlesson7\\nsbmlesson7\\controllers\\nsbmmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2CDEC89-81CF-47F3-8F35-6808CEB056EB}|NsbmLesson7\\NsbmLesson7.csproj|solutionrelative:nsbmlesson7\\controllers\\nsbmmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F0C759E-8216-C709-1394-C12F165BF2DC}|NsbmLesson7\\NsbmLesson7.csproj|d:\\net\\p5\\nsbmlesson7\\nsbmlesson7\\views\\nsbmmember\\getmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0C759E-8216-C709-1394-C12F165BF2DC}|NsbmLesson7\\NsbmLesson7.csproj|solutionrelative:nsbmlesson7\\views\\nsbmmember\\getmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2CDEC89-81CF-47F3-8F35-6808CEB056EB}|NsbmLesson7\\NsbmLesson7.csproj|d:\\net\\p5\\nsbmlesson7\\nsbmlesson7\\models\\datamodels\\nsbmmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2CDEC89-81CF-47F3-8F35-6808CEB056EB}|NsbmLesson7\\NsbmLesson7.csproj|solutionrelative:nsbmlesson7\\models\\datamodels\\nsbmmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F0C759E-8216-C709-1394-C12F165BF2DC}|NsbmLesson7\\NsbmLesson7.csproj|d:\\net\\p5\\nsbmlesson7\\nsbmlesson7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0C759E-8216-C709-1394-C12F165BF2DC}|NsbmLesson7\\NsbmLesson7.csproj|solutionrelative:nsbmlesson7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0C759E-8216-C709-1394-C12F165BF2DC}|NsbmLesson7\\NsbmLesson7.csproj|d:\\net\\p5\\nsbmlesson7\\nsbmlesson7\\views\\nsbmmember\\getmembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F0C759E-8216-C709-1394-C12F165BF2DC}|NsbmLesson7\\NsbmLesson7.csproj|solutionrelative:nsbmlesson7\\views\\nsbmmember\\getmembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\NsbmMember\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NsbmLesson7\\Views\\NsbmMember\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\NsbmMember\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NsbmLesson7\\Views\\NsbmMember\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0C759E-8216-C709-1394-C12F165BF2DC}|NsbmLesson7\\NsbmLesson7.csproj|d:\\net\\p5\\nsbmlesson7\\nsbmlesson7\\models\\datamodels\\nsbmmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0C759E-8216-C709-1394-C12F165BF2DC}|NsbmLesson7\\NsbmLesson7.csproj|solutionrelative:nsbmlesson7\\models\\datamodels\\nsbmmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetMember.cshtml",
-              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\GetMember.cshtml",
-              "RelativeDocumentMoniker": "NsbmLesson7\\Views\\GetMember.cshtml",
-              "ToolTip": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\GetMember.cshtml",
-              "RelativeToolTip": "NsbmLesson7\\Views\\GetMember.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-14T01:28:38.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NsbmMemberController.cs",
-              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Controllers\\NsbmMemberController.cs",
-              "RelativeDocumentMoniker": "NsbmLesson7\\Controllers\\NsbmMemberController.cs",
-              "ToolTip": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Controllers\\NsbmMemberController.cs",
-              "RelativeToolTip": "NsbmLesson7\\Controllers\\NsbmMemberController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T01:24:01.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NsbmMember.cs",
-              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Models\\DataModels\\NsbmMember.cs",
-              "RelativeDocumentMoniker": "NsbmLesson7\\Models\\DataModels\\NsbmMember.cs",
-              "ToolTip": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Models\\DataModels\\NsbmMember.cs",
-              "RelativeToolTip": "NsbmLesson7\\Models\\DataModels\\NsbmMember.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T01:20:59.157Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -74,6 +51,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\NsbmMember\\Create.cshtml",
+              "RelativeDocumentMoniker": "NsbmLesson7\\Views\\NsbmMember\\Create.cshtml",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\NsbmMember\\Create.cshtml",
+              "RelativeToolTip": "NsbmLesson7\\Views\\NsbmMember\\Create.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwCsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T02:25:10.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\NsbmMember\\Index.cshtml",
+              "RelativeDocumentMoniker": "NsbmLesson7\\Views\\NsbmMember\\Index.cshtml",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\NsbmMember\\Index.cshtml",
+              "RelativeToolTip": "NsbmLesson7\\Views\\NsbmMember\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T02:18:20.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetMembers.cshtml",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\NsbmMember\\GetMembers.cshtml",
+              "RelativeDocumentMoniker": "NsbmLesson7\\Views\\NsbmMember\\GetMembers.cshtml",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\NsbmMember\\GetMembers.cshtml",
+              "RelativeToolTip": "NsbmLesson7\\Views\\NsbmMember\\GetMembers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T01:58:33.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NsbmLesson7\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NsbmLesson7\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T01:43:25.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetMember.cshtml",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\NsbmMember\\GetMember.cshtml",
+              "RelativeDocumentMoniker": "NsbmLesson7\\Views\\NsbmMember\\GetMember.cshtml",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Views\\NsbmMember\\GetMember.cshtml",
+              "RelativeToolTip": "NsbmLesson7\\Views\\NsbmMember\\GetMember.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-14T01:28:38.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NsbmMemberController.cs",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Controllers\\NsbmMemberController.cs",
+              "RelativeDocumentMoniker": "NsbmLesson7\\Controllers\\NsbmMemberController.cs",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Controllers\\NsbmMemberController.cs",
+              "RelativeToolTip": "NsbmLesson7\\Controllers\\NsbmMemberController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwv0oAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T01:24:01.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NsbmMember.cs",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Models\\DataModels\\NsbmMember.cs",
+              "RelativeDocumentMoniker": "NsbmLesson7\\Models\\DataModels\\NsbmMember.cs",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson7\\NsbmLesson7\\Models\\DataModels\\NsbmMember.cs",
+              "RelativeToolTip": "NsbmLesson7\\Models\\DataModels\\NsbmMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T01:20:59.157Z",
+              "EditorCaption": ""
             }
           ]
         }
