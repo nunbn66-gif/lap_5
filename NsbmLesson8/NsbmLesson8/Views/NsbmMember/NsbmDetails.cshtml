@@ -1,0 +1,46 @@
+@model NsbmLesson8.Models.NsbmMember
+
+@{
+    ViewData["Title"] = "Details infomation";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h4>NsbmMember</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NsbmUserName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NsbmUserName)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NsbmPassword)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NsbmPassword)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NsbmFullName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NsbmFullName)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NsbmEmail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NsbmEmail)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="NsbmEdit" asp-route-id="@Model?.NsbmMemberId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+ 

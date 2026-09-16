@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NsbmLesson8
+build_property.RootNamespace = NsbmLesson8
+build_property.ProjectDir = D:\net\p5\NsbmLesson8\NsbmLesson8\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\net\p5\NsbmLesson8\NsbmLesson8
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/NsbmHome/NsbmAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnNibUhvbWVcTnNibUFib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/NsbmHome/NsbmIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnNibUhvbWVcTnNibUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/NsbmHome/NsbmPrivacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnNibUhvbWVcTnNibVByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/NsbmMember/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnNibU1lbWJlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/NsbmMember/NsbmCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnNibU1lbWJlclxOc2JtQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/NsbmMember/NsbmDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnNibU1lbWJlclxOc2JtRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/NsbmMember/NsbmDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnNibU1lbWJlclxOc2JtRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/NsbmMember/NsbmEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnNibU1lbWJlclxOc2JtRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/net/p5/NsbmLesson8/NsbmLesson8/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r3hanbtj5c

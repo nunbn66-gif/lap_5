@@ -1,0 +1,53 @@
+
+@model NsbmLesson8.Models.NsbmMember
+
+@{
+    ViewData["Title"] = "Them moi thanh vien";
+}
+<form asp-action="NsbmCreate" method="post">
+<div class="card p-3">
+    <div class="card-header">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+    <div class="card-body">
+<div class="row">
+    <div class="col-md-4">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="NsbmUserName" class="control-label"></label>
+                <input asp-for="NsbmUserName" class="form-control" />
+                <span asp-validation-for="NsbmUserName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NsbmPassword" class="control-label"></label>
+                <input asp-for="NsbmPassword" class="form-control" />
+                <span asp-validation-for="NsbmPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NsbmFullName" class="control-label"></label>
+                <input asp-for="NsbmFullName" class="form-control" />
+                <span asp-validation-for="NsbmFullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NsbmEmail" class="control-label"></label>
+                <input asp-for="NsbmEmail" class="form-control" />
+                <span asp-validation-for="NsbmEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               
+            </div>
+      
+         </div>
+        </div>
+
+    </div>
+        <div class="card-footer">
+            <input type="submit" value="Ghi lai" class="btn btn-primary" />
+            <a asp-action="Index" class="btn btn-secondary">quay lai</a>
+        </div>
+</div>
+</form>
