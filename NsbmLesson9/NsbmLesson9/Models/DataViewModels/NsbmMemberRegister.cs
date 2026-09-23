@@ -5,7 +5,7 @@ namespace NsbmLesson9.Models.DataViewModels
 {
     public class NsbmMemberRegister
     {
-        // Thêm các thuộc tính (có { get; set; }) để Scaffold có thể đọc được
+       
         public int NsbmMemberId { get; set; }
         [DisplayName("Ten dang nhap")]
         [Required(ErrorMessage = "ten dang nhap khong duoc de trong")]
