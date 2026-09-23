@@ -1,0 +1,65 @@
+@model IEnumerable<NsbmLesson9.Models.DataModels.NsbmMember>
+
+@{
+    ViewData["Title"] = "Danh sách thành viên";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NsbmUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NsbmPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NsbmEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NsbmPhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NsbmFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NsbmBirthday)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.NsbmUserName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NsbmPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NsbmEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NsbmPhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NsbmFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NsbmBirthday)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.NsbmMemberId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.NsbmMemberId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.NsbmMemberId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
