@@ -1,0 +1,9 @@
+D:\net\p5\NsbmLeson9(lap)\NsbmLeson9(lap)\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\net\p5\NsbmLeson9(lap)\NsbmLeson9(lap)\obj\Debug\net10.0\NsbmLeson9(lap).GeneratedMSBuildEditorConfig.editorconfig
+D:\net\p5\NsbmLeson9(lap)\NsbmLeson9(lap)\obj\Debug\net10.0\NsbmLeson9(lap).AssemblyInfoInputs.cache
+D:\net\p5\NsbmLeson9(lap)\NsbmLeson9(lap)\obj\Debug\net10.0\NsbmLeson9(lap).AssemblyInfo.cs
+D:\net\p5\NsbmLeson9(lap)\NsbmLeson9(lap)\obj\Debug\net10.0\NsbmLeson9(lap).csproj.CoreCompileInputs.cache
+D:\net\p5\NsbmLeson9(lap)\NsbmLeson9(lap)\obj\Debug\net10.0\NsbmLeson9(lap).MvcApplicationPartsAssemblyInfo.cache
+D:\net\p5\NsbmLeson9(lap)\NsbmLeson9(lap)\obj\Debug\net10.0\NsbmLeson9(lap).RazorAssemblyInfo.cache
+D:\net\p5\NsbmLeson9(lap)\NsbmLeson9(lap)\obj\Debug\net10.0\NsbmLeson9(lap).RazorAssemblyInfo.cs
+D:\net\p5\NsbmLeson9(lap)\NsbmLeson9(lap)\obj\Debug\net10.0\NsbmLeson9(lap).sourcelink.json

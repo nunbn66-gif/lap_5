@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\net\\p5\\NsbmLeson9(lap)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E96FCCBC-0060-EC65-FA68-3F64120BDCEB}|NsbmLeson9(lap)\\NsbmLeson9(lap).csproj|d:\\net\\p5\\nsbmleson9(lap)\\nsbmleson9(lap)\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96FCCBC-0060-EC65-FA68-3F64120BDCEB}|NsbmLeson9(lap)\\NsbmLeson9(lap).csproj|solutionrelative:nsbmleson9(lap)\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96FCCBC-0060-EC65-FA68-3F64120BDCEB}|NsbmLeson9(lap)\\NsbmLeson9(lap).csproj|d:\\net\\p5\\nsbmleson9(lap)\\nsbmleson9(lap)\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96FCCBC-0060-EC65-FA68-3F64120BDCEB}|NsbmLeson9(lap)\\NsbmLeson9(lap).csproj|solutionrelative:nsbmleson9(lap)\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLeson9(lap)\\NsbmLeson9(lap)\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "NsbmLeson9(lap)\\Models\\Product.cs",
+              "ToolTip": "D:\\net\\p5\\NsbmLeson9(lap)\\NsbmLeson9(lap)\\Models\\Product.cs",
+              "RelativeToolTip": "NsbmLeson9(lap)\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T04:56:04.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLeson9(lap)\\NsbmLeson9(lap)\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "NsbmLeson9(lap)\\Models\\Category.cs",
+              "ToolTip": "D:\\net\\p5\\NsbmLeson9(lap)\\NsbmLeson9(lap)\\Models\\Category.cs",
+              "RelativeToolTip": "NsbmLeson9(lap)\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T04:55:28.771Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

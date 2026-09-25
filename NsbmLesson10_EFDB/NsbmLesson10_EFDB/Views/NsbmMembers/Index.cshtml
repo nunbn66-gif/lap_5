@@ -1,0 +1,75 @@
+@model IEnumerable<NsbmLesson10_EFDB.Models.NsbmMember>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Tạo khung ở giữa màn hình (container) và cách trên 1 đoạn (mt-4) -->
+<div class="container mt-4">
+
+    <!-- Chữ màu xanh dương (text-primary) và cách dưới 1 đoạn (mb-3) -->
+    <h1 class="text-primary mb-3">Danh sách Sinh viên</h1>
+
+    <p>
+        <!-- Nút màu xanh lá (btn-success), có đổ bóng (shadow-sm) -->
+        <a asp-action="Create" class="btn btn-success shadow-sm">
+            + Create New
+        </a>
+    </p>
+
+    <!-- Bọc ngoài bảng để cuộn ngang trên mobile (table-responsive), đổ bóng (shadow-sm) và bo góc (rounded) -->
+    <div class="table-responsive shadow-sm rounded">
+
+        <!-- Bảng chuẩn (table), có viền (table-bordered), sọc xen kẽ (table-striped),
+             đổi màu khi di chuột (table-hover), căn giữa dọc (align-middle) -->
+        <table class="table table-bordered table-striped table-hover align-middle mb-0">
+
+            <!-- Tiêu đề bảng nền đen chữ trắng (table-dark) -->
+            <thead class="table-dark">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.NsbmUserName)</th>
+                    <th>@Html.DisplayNameFor(model => model.NsbmPassword)</th>
+                    <th>@Html.DisplayNameFor(model => model.NsbmFullName)</th>
+                    <th>@Html.DisplayNameFor(model => model.NsbmEmail)</th>
+                    <th>@Html.DisplayNameFor(model => model.NsbmPhone)</th>
+                    <th>@Html.DisplayNameFor(model => model.NsbmStartus)</th>
+
+                    <!-- Căn giữa chữ (text-center) -->
+                    <th class="text-center" style="width: 200px;">Thao tác</th>
+                </tr>
+            </thead>
+
+            <tbody class="bg-white">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.NsbmUserName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NsbmPassword)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NsbmFullName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NsbmEmail)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NsbmPhone)</td>
+                        <td>
+                            <!-- Dùng badge để tạo nhãn trạng thái -->
+                            @if (item.NsbmStartus == true)
+                            {
+                                <span class="badge bg-primary">True</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">False</span>
+                            }
+                        </td>
+
+                        <!-- Căn giữa các nút bấm (text-center) -->
+                        <td class="text-center">
+                            <!-- Nút viền màu nhỏ (btn-outline-... btn-sm) -->
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info btn-sm">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

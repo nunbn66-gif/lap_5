@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\net\\p5\\NsbmLesson10_EFDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|d:\\net\\p5\\nsbmlesson10_efdb\\nsbmlesson10_efdb\\views\\nsbmmembers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|solutionrelative:nsbmlesson10_efdb\\views\\nsbmmembers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|d:\\net\\p5\\nsbmlesson10_efdb\\nsbmlesson10_efdb\\views\\nsbmmembers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|solutionrelative:nsbmlesson10_efdb\\views\\nsbmmembers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|d:\\net\\p5\\nsbmlesson10_efdb\\nsbmlesson10_efdb\\models\\nsbmmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|solutionrelative:nsbmlesson10_efdb\\models\\nsbmmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|d:\\net\\p5\\nsbmlesson10_efdb\\nsbmlesson10_efdb\\models\\lesson10efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|solutionrelative:nsbmlesson10_efdb\\models\\lesson10efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|d:\\net\\p5\\nsbmlesson10_efdb\\nsbmlesson10_efdb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|solutionrelative:nsbmlesson10_efdb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|d:\\net\\p5\\nsbmlesson10_efdb\\nsbmlesson10_efdb\\controllers\\nsbmmemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|solutionrelative:nsbmlesson10_efdb\\controllers\\nsbmmemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|d:\\net\\p5\\nsbmlesson10_efdb\\nsbmlesson10_efdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|solutionrelative:nsbmlesson10_efdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|d:\\net\\p5\\nsbmlesson10_efdb\\nsbmlesson10_efdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|solutionrelative:nsbmlesson10_efdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|d:\\net\\p5\\nsbmlesson10_efdb\\nsbmlesson10_efdb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EC6C964-DF31-2EF9-6637-A334A05D424D}|NsbmLesson10_EFDB\\NsbmLesson10_EFDB.csproj|solutionrelative:nsbmlesson10_efdb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Views\\NsbmMembers\\Index.cshtml",
+              "RelativeDocumentMoniker": "NsbmLesson10_EFDB\\Views\\NsbmMembers\\Index.cshtml",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Views\\NsbmMembers\\Index.cshtml*",
+              "RelativeToolTip": "NsbmLesson10_EFDB\\Views\\NsbmMembers\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T13:27:30.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Views\\NsbmMembers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "NsbmLesson10_EFDB\\Views\\NsbmMembers\\Edit.cshtml",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Views\\NsbmMembers\\Edit.cshtml",
+              "RelativeToolTip": "NsbmLesson10_EFDB\\Views\\NsbmMembers\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T13:27:30.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NsbmMembersController.cs",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Controllers\\NsbmMembersController.cs",
+              "RelativeDocumentMoniker": "NsbmLesson10_EFDB\\Controllers\\NsbmMembersController.cs",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Controllers\\NsbmMembersController.cs",
+              "RelativeToolTip": "NsbmLesson10_EFDB\\Controllers\\NsbmMembersController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T13:23:02.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NsbmLesson10_EFDB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NsbmLesson10_EFDB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T13:11:39.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Program.cs",
+              "RelativeDocumentMoniker": "NsbmLesson10_EFDB\\Program.cs",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Program.cs",
+              "RelativeToolTip": "NsbmLesson10_EFDB\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T12:36:56.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\appsettings.json",
+              "RelativeDocumentMoniker": "NsbmLesson10_EFDB\\appsettings.json",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\appsettings.json",
+              "RelativeToolTip": "NsbmLesson10_EFDB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-25T12:55:48.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "NsbmLesson10_EFDB\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "NsbmLesson10_EFDB\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T12:35:56.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NsbmMember.cs",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Models\\NsbmMember.cs",
+              "RelativeDocumentMoniker": "NsbmLesson10_EFDB\\Models\\NsbmMember.cs",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Models\\NsbmMember.cs",
+              "RelativeToolTip": "NsbmLesson10_EFDB\\Models\\NsbmMember.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T12:35:54.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lesson10EfdbContext.cs",
+              "DocumentMoniker": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Models\\Lesson10EfdbContext.cs",
+              "RelativeDocumentMoniker": "NsbmLesson10_EFDB\\Models\\Lesson10EfdbContext.cs",
+              "ToolTip": "D:\\net\\p5\\NsbmLesson10_EFDB\\NsbmLesson10_EFDB\\Models\\Lesson10EfdbContext.cs",
+              "RelativeToolTip": "NsbmLesson10_EFDB\\Models\\Lesson10EfdbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T12:35:26.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
