@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NsbmLesson10_EFDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30ca2c43f13437f5838e7cc4f1554b44146886ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f01dc333eb1586035259f31ab58fe7f1626e8c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("NsbmLesson10_EFDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NsbmLesson10_EFDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

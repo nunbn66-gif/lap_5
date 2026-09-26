@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NsbmLesson10_EFDB",
+    "\\NsbmLesson10_EFDB\\bin",
+    "\\NsbmLesson10_EFDB\\obj",
+    "\\NsbmLesson10_EFDB\\obj\\Debug",
+    "\\NsbmLesson10_EFDB\\obj\\Release",
+    "\\NsbmLesson10_EFDB\\Properties",
+    "\\NsbmLesson10_EFDB\\Views",
+    "\\NsbmLesson10_EFDB\\Views\\Home",
+    "\\NsbmLesson10_EFDB\\wwwroot"
+  ],
+  "SelectedNode": "\\NsbmLesson10_EFDB\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

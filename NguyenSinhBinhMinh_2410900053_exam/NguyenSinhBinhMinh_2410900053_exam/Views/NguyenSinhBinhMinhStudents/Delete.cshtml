@@ -1,0 +1,45 @@
+@model NguyenSinhBinhMinh_2410900053_exam.Models.NguyenSinhBinhMinhStudent
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container mt-4">
+    <h2 class="text-danger">Delete Student</h2>
+
+    <div class="alert alert-danger shadow-sm col-md-8 mt-3" role="alert">
+        <h5 class="alert-heading">Are you sure you want to delete this?</h5>
+        <p class="mb-0">Hành động này không thể hoàn tác.</p>
+    </div>
+
+    <div class="card shadow-sm col-md-8 mt-3">
+        <div class="card-body">
+            <dl class="row mb-0">
+                <dt class="col-sm-4 text-secondary">@Html.DisplayNameFor(model => model.NguyenSinhBinhMinhName)</dt>
+                <dd class="col-sm-8 fw-bold">@Html.DisplayFor(model => model.NguyenSinhBinhMinhName)</dd>
+
+                <dt class="col-sm-4 text-secondary">@Html.DisplayNameFor(model => model.NguyenSinhBinhMinhGender)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NguyenSinhBinhMinhGender)</dd>
+
+                <dt class="col-sm-4 text-secondary">@Html.DisplayNameFor(model => model.NguyenSinhBinhMinhBirthday)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NguyenSinhBinhMinhBirthday)</dd>
+
+                <dt class="col-sm-4 text-secondary">@Html.DisplayNameFor(model => model.NguyenSinhBinhMinhEmail)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NguyenSinhBinhMinhEmail)</dd>
+
+                <dt class="col-sm-4 text-secondary">@Html.DisplayNameFor(model => model.NguyenSinhBinhMinhPhone)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NguyenSinhBinhMinhPhone)</dd>
+
+                <dt class="col-sm-4 text-secondary">@Html.DisplayNameFor(model => model.NguyenSinhBinhMinhActive)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NguyenSinhBinhMinhActive)</dd>
+            </dl>
+        </div>
+        <div class="card-footer bg-white">
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="Yes, Delete" class="btn btn-danger shadow-sm" />
+                <a asp-action="Index" class="btn btn-secondary ms-2 shadow-sm">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
