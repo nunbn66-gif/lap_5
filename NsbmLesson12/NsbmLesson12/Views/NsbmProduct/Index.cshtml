@@ -1,0 +1,136 @@
+@model IEnumerable<NsbmLesson12.Models.NsbmProduct>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<div class="container-fluid py-4">
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+        <div>
+            <h1 class="display-6 fw-bold mb-1">Danh sách sản phẩm</h1>
+            <p class="text-muted mb-0">Quản lý sản phẩm trong cửa hàng.</p>
+        </div>
+
+        <a asp-action="Create" class="btn btn-primary">
+            + Thêm sản phẩm
+        </a>
+    </div>
+
+    <div class="card border-0 shadow-sm">
+        <div class="card-header bg-white border-0 py-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="h5 mb-0">Danh sách sản phẩm</h2>
+                <span class="badge bg-secondary">@Model.Count() sản phẩm</span>
+            </div>
+        </div>
+
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th class="ps-4">Tên sản phẩm</th>
+                            <th>Hình ảnh</th>
+                            <th>Giá</th>
+                            <th>Giá bán</th>
+                            <th>Trạng thái</th>
+                            <th>Mô tả</th>
+                            <th>Danh mục</th>
+                            <th>Ngày tạo</th>
+                            <th class="text-end pe-4">Thao tác</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @if (!Model.Any())
+                        {
+                            <tr>
+                                <td colspan="9" class="text-center py-5 text-muted">
+                                    Chưa có sản phẩm nào.
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="ps-4">
+                                        <div class="fw-semibold">@item.NsbmName</div>
+                                    </td>
+
+                                    <td>
+                                        @if (!string.IsNullOrWhiteSpace(item.NsbmImage))
+                                        {
+                                            <div class="small text-muted text-truncate" style="max-width: 160px;">
+                                                @item.NsbmImage
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">Chưa có</span>
+                                        }
+                                    </td>
+
+                                    <td>
+                                        <span class="fw-semibold">
+                                            @item.NsbmPrice.ToString("N0")
+                                        </span>
+                                    </td>
+
+                                    <td>
+                                        <span class="text-danger fw-semibold">
+                                            @item.NsbmsalePrice.ToString("N0")
+                                        </span>
+                                    </td>
+
+                                    <td>
+                                        <span class="badge bg-secondary">
+                                            @item.NsbmStatus
+                                        </span>
+                                    </td>
+
+                                    <td>
+                                        <div class="text-muted text-truncate" style="max-width: 220px;">
+                                            @item.Descriptions
+                                        </div>
+                                    </td>
+
+                                    <td>
+                                        <span class="badge bg-light text-dark border">
+                                            #@item.NsbmCategoryId
+                                        </span>
+                                    </td>
+
+                                    <td class="text-nowrap text-muted">
+                                        @item.NsbmCreatedDate.ToString("dd/MM/yyyy HH:mm")
+                                    </td>
+
+                                    <td class="text-end pe-4">
+                                        <div class="btn-group" role="group">
+                                            <a asp-action="Details"
+                                               asp-route-id="@item.NsbmId"
+                                               class="btn btn-sm btn-outline-info">
+                                                Chi tiết
+                                            </a>
+                                            <a asp-action="Edit"
+                                               asp-route-id="@item.NsbmId"
+                                               class="btn btn-sm btn-outline-primary">
+                                                Sửa
+                                            </a>
+                                            <a asp-action="Delete"
+                                               asp-route-id="@item.NsbmId"
+                                               class="btn btn-sm btn-outline-danger">
+                                                Xóa
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

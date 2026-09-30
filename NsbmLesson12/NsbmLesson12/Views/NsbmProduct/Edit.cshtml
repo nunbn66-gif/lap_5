@@ -1,0 +1,117 @@
+@model NsbmLesson12.Models.NsbmProduct
+
+@{
+    ViewData["Title"] = "Sửa sản phẩm";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-xl-8">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-warning py-3">
+                    <h1 class="h4 mb-0">Sửa sản phẩm</h1>
+                </div>
+
+                <div class="card-body p-4">
+                    <form asp-action="Edit" method="post">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                        <input type="hidden" asp-for="NsbmId" />
+
+                        <div class="row g-3">
+                            <div class="col-md-8">
+                                <label asp-for="NsbmName" class="form-label fw-semibold">Tên sản phẩm</label>
+                                <input asp-for="NsbmName" class="form-control" />
+                                <span asp-validation-for="NsbmName" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label asp-for="NsbmStatus" class="form-label fw-semibold">Trạng thái</label>
+                                <input asp-for="NsbmStatus"
+                                       class="form-control"
+                                       type="number"
+                                       min="0"
+                                       max="255" />
+                                <span asp-validation-for="NsbmStatus" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-12">
+                                <label asp-for="NsbmImage" class="form-label fw-semibold">Đường dẫn hình ảnh</label>
+                                <input asp-for="NsbmImage" class="form-control" />
+                                <span asp-validation-for="NsbmImage" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="NsbmPrice" class="form-label fw-semibold">Giá sản phẩm</label>
+                                <div class="input-group">
+                                    <input asp-for="NsbmPrice"
+                                           class="form-control"
+                                           type="number"
+                                           step="0.01"
+                                           min="0" />
+                                    <span class="input-group-text">VNĐ</span>
+                                </div>
+                                <span asp-validation-for="NsbmPrice" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="NsbmsalePrice" class="form-label fw-semibold">Giá bán</label>
+                                <div class="input-group">
+                                    <input asp-for="NsbmsalePrice"
+                                           class="form-control"
+                                           type="number"
+                                           step="0.01"
+                                           min="0" />
+                                    <span class="input-group-text">VNĐ</span>
+                                </div>
+                                <span asp-validation-for="NsbmsalePrice" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="NsbmCategoryId" class="form-label fw-semibold">Mã danh mục</label>
+                                <input asp-for="NsbmCategoryId"
+                                       class="form-control"
+                                       type="number"
+                                       min="1" />
+                                <span asp-validation-for="NsbmCategoryId" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="NsbmCreatedDate" class="form-label fw-semibold">Ngày tạo</label>
+                                <input asp-for="NsbmCreatedDate"
+                                       type="datetime-local"
+                                       class="form-control" />
+                                <span asp-validation-for="NsbmCreatedDate" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-12">
+                                <label asp-for="Descriptions" class="form-label fw-semibold">Mô tả</label>
+                                <textarea asp-for="Descriptions"
+                                          class="form-control"
+                                          rows="5"
+                                          maxlength="1000"></textarea>
+                                <div class="form-text">Tối đa 1000 ký tự.</div>
+                                <span asp-validation-for="Descriptions" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-2 mt-4">
+                            <button type="submit" class="btn btn-warning">
+                                Lưu thay đổi
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary">
+                                Hủy
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

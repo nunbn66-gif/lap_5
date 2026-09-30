@@ -1,0 +1,58 @@
+@model NsbmLesson12.Models.NsbmCategory
+
+@{
+    ViewData["Title"] = "Xóa danh mục";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-7">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-danger text-white py-3">
+                    <h2 class="h4 mb-0">Xóa danh mục</h2>
+                </div>
+
+                <div class="card-body p-4">
+                    <div class="alert alert-warning" role="alert">
+                        Bạn có chắc chắn muốn xóa danh mục này không?
+                    </div>
+
+                    <dl class="row mb-0">
+                        <dt class="col-sm-4 text-muted">Mã danh mục</dt>
+                        <dd class="col-sm-8 fw-semibold">@Model.NsbmId</dd>
+
+                        <dt class="col-sm-4 text-muted">Tên danh mục</dt>
+                        <dd class="col-sm-8 fw-semibold">@Model.Nsbmname</dd>
+
+                        <dt class="col-sm-4 text-muted">Ngày tạo</dt>
+                        <dd class="col-sm-8">
+                            @Model.NsbmCreatedDate.ToString("dd/MM/yyyy HH:mm")
+                        </dd>
+
+                        <dt class="col-sm-4 text-muted">Số sản phẩm</dt>
+                        <dd class="col-sm-8">
+                            <span class="badge bg-secondary">
+                                @(Model.NsbmProducts?.Count ?? 0) sản phẩm
+                            </span>
+                        </dd>
+                    </dl>
+                </div>
+
+                <div class="card-footer bg-white border-0 px-4 pb-4">
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" asp-for="NsbmId" />
+
+                        <div class="d-flex gap-2">
+                            <button type="submit" class="btn btn-danger">
+                                Xác nhận xóa
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary">
+                                Hủy
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

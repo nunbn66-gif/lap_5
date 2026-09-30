@@ -1,0 +1,104 @@
+@model NsbmLesson12.Models.NsbmProduct
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-xl-9">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-info text-white py-3">
+                    <h1 class="h4 mb-0">Chi tiết sản phẩm</h1>
+                </div>
+
+                <div class="card-body p-4">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="bg-light rounded-3 p-4 text-center h-100">
+                                @if (!string.IsNullOrWhiteSpace(Model.NsbmImage))
+                                {
+                                    <div class="small text-muted mb-2">Hình ảnh / đường dẫn</div>
+                                    <div class="fw-semibold text-break">@Model.NsbmImage</div>
+                                }
+                                else
+                                {
+                                    <div class="text-muted py-5">Chưa có hình ảnh</div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <h2 class="h3 fw-bold mb-3">@Model.NsbmName</h2>
+
+                            <dl class="row mb-0">
+                                <dt class="col-sm-5 text-muted">Mã sản phẩm</dt>
+                                <dd class="col-sm-7 fw-semibold">@Model.NsbmId</dd>
+
+                                <dt class="col-sm-5 text-muted">Giá sản phẩm</dt>
+                                <dd class="col-sm-7 fw-semibold">
+                                    @Model.NsbmPrice.ToString("N0") VNĐ
+                                </dd>
+
+                                <dt class="col-sm-5 text-muted">Giá bán</dt>
+                                <dd class="col-sm-7 text-danger fw-semibold">
+                                    @Model.NsbmsalePrice.ToString("N0") VNĐ
+                                </dd>
+
+                                <dt class="col-sm-5 text-muted">Trạng thái</dt>
+                                <dd class="col-sm-7">
+                                    <span class="badge bg-secondary">@Model.NsbmStatus</span>
+                                </dd>
+
+                                <dt class="col-sm-5 text-muted">Mã danh mục</dt>
+                                <dd class="col-sm-7">
+                                    <span class="badge bg-light text-dark border">
+                                        #@Model.NsbmCategoryId
+                                    </span>
+                                </dd>
+
+                                <dt class="col-sm-5 text-muted">Ngày tạo</dt>
+                                <dd class="col-sm-7">
+                                    @Model.NsbmCreatedDate.ToString("dd/MM/yyyy HH:mm")
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="col-12">
+                            <hr />
+                            <h3 class="h5 fw-semibold">Mô tả</h3>
+                            <div class="bg-light rounded-3 p-3 text-muted">
+                                @if (!string.IsNullOrWhiteSpace(Model.Descriptions))
+                                {
+                                    @Model.Descriptions
+                                }
+                                else
+                                {
+                                    <span>Chưa có mô tả.</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-footer bg-white border-0 px-4 pb-4">
+                    <div class="d-flex gap-2">
+                        <a asp-action="Edit"
+                           asp-route-id="@Model?.NsbmId"
+                           class="btn btn-primary">
+                            Sửa sản phẩm
+                        </a>
+                        <a asp-action="Delete"
+                           asp-route-id="@Model?.NsbmId"
+                           class="btn btn-outline-danger">
+                            Xóa
+                        </a>
+                        <a asp-action="Index" class="btn btn-outline-secondary">
+                            Quay lại
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
