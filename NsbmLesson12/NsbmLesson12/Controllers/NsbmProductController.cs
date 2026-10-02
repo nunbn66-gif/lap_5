@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NsbmLesson12.Models;
 using NsbmLesson12.Data;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 public class NsbmProductController : Controller
 {
@@ -52,10 +53,26 @@ public class NsbmProductController : Controller
     {
         if (ModelState.IsValid)
         {
+            
+            var files = HttpContext.Request.Form.Files;
+            //files[0] là file đầu tiên được upload lên
+            //length là kích thước của file, nếu > 0 thì có nghĩa là có file được upload lên
+            if (files.Count() > 0 && files[0].Length > 0)
+            {
+                var file = files[0];
+                var FileName = file.FileName;
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", FileName);
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    file.CopyTo(stream);
+                    nsbmproduct.NsbmImage = FileName;
+                }
+            }
             _context.Add(nsbmproduct);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+         ViewData["NsbmCategoryId"] = new SelectList(_context.NsbmCategories, "NsbmCategoryId", "NsbmCategoryName", nsbmproduct.NsbmCategoryId);
         return View(nsbmproduct);
     }
 

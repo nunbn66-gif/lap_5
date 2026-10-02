@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+   <nav class="container border-1 my-1 p-2 ">
+        <div>
+            <a href="/Products/Index" title="Danh sach sp">Danh sach san pham</a></li>
+            <a asp-action="Search" asp-controller="Products" title="Tim kiem">Tim kiem</a></li>
+            <a asp-action="Hots" asp-controller="Products" title="San pham hot">San pham hot</a></li>
+            <a href="/Products/About" title="Ve chung toi">Gioi thieu</a></li>
+        </div>
+   </nav>
+    <div class="container border-1 my-1  p-2">
+        @RenderBody()
+   </div>
+        <footer class="container border-1 my-1 p-2">
+        <p>Copyright &copy; 2026 - NsbmLesson13_Layout-<a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></p>
+        </footer>
+</body>
+</html>

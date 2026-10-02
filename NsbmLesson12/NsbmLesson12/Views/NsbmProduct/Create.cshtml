@@ -36,8 +36,8 @@
                             </div>
 
                             <div class="col-12">
-                                <label asp-for="NsbmImage" class="form-label fw-semibold">Đường dẫn hình ảnh</label>
-                                <input asp-for="NsbmImage"
+                                <label asp-for="NsbmImage" class="form-label fw-semibold">Chọn hình ảnh</label>
+                                <input asp-for="NsbmImage" type="file"
                                        class="form-control"
                                        placeholder="https://... hoặc tên file hình ảnh" />
                                 <span asp-validation-for="NsbmImage" class="text-danger"></span>
@@ -73,11 +73,11 @@
 
                             <div class="col-md-6">
                                 <label asp-for="NsbmCategoryId" class="form-label fw-semibold">Mã danh mục</label>
-                                <input asp-for="NsbmCategoryId"
-                                       class="form-control"
-                                       type="number"
-                                       min="1"
-                                       placeholder="Nhập mã danh mục" />
+                                <select asp-for="NsbmCategoryId"
+                                        class="form-control"
+                                        asp-items="ViewBag.NsbmCategoryId">
+                                    <option value="">-- Chọn danh mục --</option>
+                                </select>
                                 <span asp-validation-for="NsbmCategoryId" class="text-danger"></span>
                             </div>
 
